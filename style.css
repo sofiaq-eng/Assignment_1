@@ -1,0 +1,36 @@
+#chart {
+  overflow-x: auto; /* add a movement bar when the heatmap is to big */
+}
+
+#chart-level-2 {
+  overflow-x: auto; /* add a movement bar when the heatmap is to big */
+}
+
+#chart button {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  z-index: 10;
+}
+
+.cell {  /* Style the heatmap cells */
+  stroke: white;
+  stroke-width: 1px;
+  cursor: none;
+}
+
+.cell2 {  /* Style the heatmap cells */
+  stroke: white;
+  stroke-width: 1px;
+  cursor: none;
+}
+
+.tooltip { /* Style the box of legend in the heatmap */
+  position: absolute;
+  background: white;
+  color: black;
+  padding: 8px 10px;
+  font-size: 13px;
+  pointer-events: none;
+  cursor: none;
+}
